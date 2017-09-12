@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1>To-Do List</h1>
+        <a href="/add">Add a todo</a>
+        <hr>
+    </header>
+    <ul>
+        {% for todo in todos %}
+            <li>{{todo.title}}: {{todo.text}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
