@@ -10,4 +10,5 @@ Setup Instructions:
 6) Update settings.py in /todolist/todolist and edit the DATABASES fields NAME, USER, and PASSWORD with the appropriate information for your PostgreSQL table
 7) Go into /todolist and run the command 'python manage.py makemigrations'
 8) Go into /todolist and run the command 'python manage.py makemigrations app'
-8) To run the server, go into /todolist and run the command 'python manage.py runserver'
+9) Go into /todolist and run the command 'python manage.py migrate'
+10) To run the server, go into /todolist and run the command 'python manage.py runserver'
